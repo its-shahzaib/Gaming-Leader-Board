@@ -1,0 +1,48 @@
+<!-- static/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gaming Leaderboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <h1>Gaming Leaderboard</h1>
+        <p class="subtitle">Dynamic rankings • Real-time updates • Top players at a glance</p>
+      </div>
+      <div class="top3-box" id="top3Box">
+        <!-- Top 3 cards filled by JS -->
+      </div>
+    </header>
+
+    <section class="controls">
+      <form id="addForm" class="add-form">
+        <input id="playerName" placeholder="Player name" required />
+        <input id="playerScore" type="number" placeholder="Score" value="0" required />
+        <button type="submit" class="btn">Add Player</button>
+      </form>
+
+      <div class="simulate">
+        <button id="simulateMatch" class="btn alt">Simulate Random Match</button>
+        <button id="refresh" class="btn">Refresh</button>
+      </div>
+    </section>
+
+    <section class="leaderboard" id="leaderboard">
+      <!-- leaderboard rows injected here -->
+    </section>
+
+    <footer class="footer">
+      <small>Project: Gaming Leaderboard System — implemented with LinkedList, Heap, QuickSort</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
