@@ -2,10 +2,10 @@
 A dynamic Gaming Leaderboard Web Application that ranks players based on their scores in real time. This project demonstrates the practical use of Data Structures and Algorithms (DSA) integrated with a Flask-based web application.
 
 # 📊Project Title & Description
-## Project Title:
+## 📂Project Title:
 Gaming Leaderboard System
 
-## Description:
+## 📖 Description:
 The Gaming Leaderboard System allows users to add, update, delete, and rank players dynamically. Player data is managed using efficient data structures, and rankings are updated automatically. The application features a modern gaming-style UI and real-time updates, making it suitable for academic projects, DSA demonstrations, and portfolios.
 
 # ✨ Features
@@ -24,11 +24,11 @@ Simulate random matches
 Responsive and modern UI
 
 # 🧠 Data Structures & Algorithms
-Linked List – Used to store and manage player records dynamically
+Linked List: Used to store and manage player records dynamically
 
-Quick Sort – Used to sort players by score in descending order
+Quick Sort: Used to sort players by score in descending order
 
-Heap (Priority Queue) – Used to efficiently retrieve the Top 3 players
+Heap (Priority Queue): Used to efficiently retrieve the Top 3 players
 
 # 🛠️ Technologies Used
 Backend: Python, Flask, Flask-CORS
